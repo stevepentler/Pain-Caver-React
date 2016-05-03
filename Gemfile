@@ -5,6 +5,7 @@ gem 'figaro'
 gem 'faraday'
 gem 'polylines'
 gem "skylight"
+gem 'react-rails'
 
 
 gem 'rails', '4.2.5'
