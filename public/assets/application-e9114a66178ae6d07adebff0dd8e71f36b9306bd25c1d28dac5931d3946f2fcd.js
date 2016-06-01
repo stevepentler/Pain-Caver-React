@@ -31765,6 +31765,115 @@ return jQuery;
 
 
 
+var HomePage = React.createClass({
+  displayName: "HomePage",
+
+  render: function () {
+    return React.createElement(
+      "div",
+      null,
+      React.createElement(
+        "div",
+        { className: "anton" },
+        React.createElement(
+          "div",
+          { className: "row center opaque white-text" },
+          React.createElement(
+            "div",
+            { className: "col s12 m5 l5 offset-m6 offset-l6" },
+            React.createElement(
+              "h1",
+              { className: "titillium" },
+              "PAINCAVER"
+            ),
+            React.createElement(
+              "a",
+              { href: "/auth/strava", className: "btn" },
+              " Login with Strava"
+            ),
+            React.createElement(
+              "p",
+              { id: "home-description" },
+              "Calculate your trail's difficulty rating using:"
+            ),
+            React.createElement(
+              "div",
+              { className: "row center white-text" },
+              React.createElement(
+                "div",
+                { className: "col s12 m4 l4" },
+                React.createElement(
+                  "i",
+                  { className: "medium material-icons" },
+                  "navigation"
+                ),
+                React.createElement(
+                  "h5",
+                  null,
+                  "elevation"
+                )
+              ),
+              React.createElement(
+                "div",
+                { className: "col s12 m4 l4" },
+                React.createElement(
+                  "i",
+                  { className: "medium material-icons" },
+                  "trending_up"
+                ),
+                React.createElement(
+                  "h5",
+                  null,
+                  "heartrate"
+                )
+              ),
+              React.createElement(
+                "div",
+                { className: "col s12 m4 l4" },
+                React.createElement(
+                  "i",
+                  { className: "medium material-icons" },
+                  "query_builder"
+                ),
+                React.createElement(
+                  "h5",
+                  null,
+                  "duration"
+                )
+              )
+            )
+          )
+        )
+      )
+    );
+  }
+});
+var Main = React.createClass({
+  displayName: "Main",
+
+  render: function () {
+    return React.createElement(
+      "div",
+      null,
+      React.createElement(
+        "h1",
+        null,
+        "Hello World!"
+      )
+    );
+  }
+});
+var Main = React.createClass({
+  displayName: "Main",
+
+  render: function () {
+    return React.createElement(
+      "div",
+      null,
+      React.createElement(HomePage, null)
+    );
+  }
+});
 // This is a manifest file that'll be compiled into application.js, which will include all the files
 // listed below.
 //
