@@ -1,4 +1,4 @@
-var Main = React.createClass({
+var HomePage = React.createClass({
   render() {
     return (
       <div>
@@ -28,4 +28,4 @@ var Main = React.createClass({
       </div>
     )
   }
-});
+})
